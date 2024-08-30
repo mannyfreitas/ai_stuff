@@ -7,28 +7,24 @@
     <link rel="stylesheet" href="./task.css">
 </head>
 <body>
-	
 
-		<div class="container">
-			<h1>Task Tracker</h1>
-			<form id="task-form">
-				<input type="text" id="task-input" placeholder="Add a new task" required>
-				<input type="date" id="due-date-input" required>
-				<button type="submit">Add Task</button>
-			</form>
-			<div class="task-list">
-				<h2>Pending Tasks</h2>
-				<ul id="pending-tasks"></ul>
-			</div>
-			<div class="task-list">
-				<h2>Completed Tasks</h2>
-				<ul id="completed-tasks"></ul>
-			</div>
+	<div class="container">
+		<h1>Task Tracker</h1>
+		<p>An AI experiment built in 1.25 hours w/ Copilot. I made a few minor styling tweaks.</p>
+		<form id="task-form">
+			<input type="text" id="task-input" placeholder="Add a new task" required>
+			<input type="date" id="due-date-input" required>
+			<button type="submit">Add Task</button>
+		</form>
+		<div class="task-list">
+			<h2>Pending Tasks</h2>
+			<ul id="pending-tasks"></ul>
 		</div>
-
-
-
-
+		<div class="task-list">
+			<h2>Completed Tasks</h2>
+			<ul id="completed-tasks"></ul>
+		</div>
+	</div>
 
 	<script src="./task.js"></script>
 </body>

@@ -1,6 +1,6 @@
 body {
     background-color: #121212;
-    color: #ffffff;
+    color: #efefef;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -9,29 +9,48 @@ body {
     margin: 0;
 }
 
+p {
+    color: #ccc;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin: 3vh;
+}
+
 .container {
     background-color: #1e1e1e;
-    padding: 2vh;
+    margin: 4vh;
+    padding: 4vh;
     border-radius: 0.8vh;
     box-shadow: 0 0 1vh rgba(0, 0, 0, 0.5);
-    width: 100%;
-    margin: 4vh;
+    max-width: 700px;
     text-align: center;
 }
 
-h1, h2 {
-    margin-bottom: 2vh;
+h1 {
+    background-color: #9c1212;
+    margin: 1vh 0;
+    padding: 1vh;
+    margin-top: 0;
 }
+
+h2 {
+    color: #ccc;
+    margin: 1vh;
+    margin-top: 3vh;
+}
+
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1vh;
-    margin-bottom: 2vh;
     align-items: stretch;
+    margin: 3vh;
 }
 
-input[type="text"], input[type="date"], button[type="submit"] {
+input[type="text"], 
+input[type="date"], 
+button[type="submit"] {
     padding: 1vh;
     border: none;
     border-radius: 0.4vh;
@@ -66,6 +85,7 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 1vh;
 }
 
 li .task-date, li .task-text, li .task-button {
@@ -92,7 +112,7 @@ li .task-button {
 }
 
 li button {
-    background-color: #b00020;
+    background-color: #1d8016;
     border: none;
     border-radius: 0.4vh;
     color: #ffffff;
